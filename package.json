@@ -1,0 +1,29 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "A Cypress project configured automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "@cypress/webpack-preprocessor": "latest",
+    "@faker-js/faker": "^9.8.0",
+    "cypress": "latest",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1",
+    "eslint": "latest",
+    "eslint-plugin-cypress": "latest",
+    "multiple-cucumber-html-reporter": "latest",
+    "playwright-webkit": "latest",
+    "webpack": "latest"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "reports/json/results.json"
+    }
+  }
+}
