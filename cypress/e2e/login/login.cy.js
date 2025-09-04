@@ -10,7 +10,7 @@ Given("open login", () => {
 
 When("open homepage", () => {
 
-loginuser.logintest()
+loginuser.logintest() 
 });
 
 

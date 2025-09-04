@@ -146,6 +146,7 @@ productimage = "div[role='presentation']"
 addproducts = "button[type='submit']"
 
 createDispute() {
+  cy.wait(3000)
 cy.xpath(this.transactiontab).click()
 cy.xpath(this.disputetab).click()
 cy.xpath(this.createdispute).click()
