@@ -14,4 +14,4 @@ Background:
             When i ctreate transfer fund
 
         Scenario: create transfer fund
-            When i ctreate transfer fund
+            When i create transfer fund

@@ -10,7 +10,7 @@ When ('i add virtual account', () => {
     services.addvirtual() 
 });
 
-When ('i ctreate transfer fund', () => {
+When ('i create transfer fund', () => {
 
     services.createtransfer()
 });
