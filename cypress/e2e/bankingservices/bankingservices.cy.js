@@ -12,5 +12,5 @@ When ('i add virtual account', () => {
 
 When ('i ctreate transfer fund', () => {
 
-    services.transferfund()
+    services.createtransfer()
 });

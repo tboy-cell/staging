@@ -67,7 +67,7 @@ cy.get(`[data-value="${currency}"]`).click();
   cy.xpath(this.beneficiarytab).click()
   cy.get(this.beneficiary).click()
  cy.get('body', { timeout: 10000 }).should('have.css', 'pointer-events', 'auto');
-cy.get('#amount').type('1000');
+   cy.get('#amount').type('1000');
 
 
  cy.get(this.narrationtab).type(this.narration)
