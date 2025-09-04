@@ -6,7 +6,7 @@ Background:
         When open homepage
 
 Scenario: create dispute
- /When i create dispute    
+/ When i create dispute    
 
 
  Scenario: create paymentlink
