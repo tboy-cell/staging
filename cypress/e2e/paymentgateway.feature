@@ -35,4 +35,4 @@ Scenario: create paymentpage
     /When  create reward
 
     Scenario:  add product
-   / When  add product
+   When  add product

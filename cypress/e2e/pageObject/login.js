@@ -3,7 +3,7 @@ emailfield = "#email"
 passwordfield = "#password"
 loginbtn = "button[type='submit']"
 email = "endurance+1000@blusalt.net"
-password = "Ekundayo9189@@"
+password = "Ekundayo9189@@@"
   
 
 logintest() {
